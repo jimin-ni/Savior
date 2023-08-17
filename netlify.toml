@@ -10,4 +10,4 @@
 [build.environment]
 DJANGO_SETTINGS_MODULE = "h_thon.settings"
 
-site = "ds-savior"
+site = "/ds-savior"
