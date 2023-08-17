@@ -1,5 +1,6 @@
 [build]
-    command = "pip install -r requirements.txt && python manage.py collectstatic --noinput"
+    command = "./build.sh"
+
     publish = "static"  # 정적 파일의 경로
     exclude = [
     "myvenv/**",
