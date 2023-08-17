@@ -2,7 +2,7 @@
 command = "python manage.py collectstatic --noinput"
 publish = "../static"  # 정적 파일의 경로
 exclude = [
-    "../myvenv/**",
+    "../myvenv/*",
  ]
 
 [build.environment]
