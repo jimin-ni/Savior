@@ -4,3 +4,5 @@ publish = "../static"  # 정적 파일의 경로
 
 [build.environment]
 DJANGO_SETTINGS_MODULE = "h_thon.settings"
+
+site = "ds-savior"
