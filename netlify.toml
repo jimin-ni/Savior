@@ -1,6 +1,7 @@
 [build]
-command ="source myvenv/scripts/activate"
 command = "python manage.py collectstatic --noinput"
+command ="source myvenv/scripts/activate"
+
 publish = "./static"  # 정적 파일의 경로
 
 
