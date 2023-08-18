@@ -29,8 +29,8 @@ if socket.gethostname()=="Raouf-PC":
     from local_settings import *
 
 
-with open(secret_file) as f:
-    secrets = json.loads(f.read())
+# with open(secret_file) as f:
+#     secrets = json.loads(f.read())
 
 def get_secret(setting, secrets=secrets):
     try:
