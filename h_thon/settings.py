@@ -65,7 +65,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'savior',
     'savior.apps.TranslatorConfig',
-    'accounts',
+    # 'accounts',
+    'accounts.apps.TranslatorConfig',
     'admin_thumbnails',
     'rest_framework',
     
