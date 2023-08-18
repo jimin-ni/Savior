@@ -1,1 +1,1 @@
-web: source source /workspace/myvenv/Scripts/activate && python manage.py runserver
+web: source /workspace/myvenv/Scripts/activate && python manage.py runserver
