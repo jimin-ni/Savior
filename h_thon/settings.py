@@ -32,12 +32,12 @@ if socket.gethostname()=="Raouf-PC":
 # with open(secret_file) as f:
 #     secrets = json.loads(f.read())
 
-def get_secret(setting, secrets=secrets):
-    try:
-        return secrets[setting]
-    except KeyError:
-        error_msg = "Set the {} environment variable".format(setting)
-        raise ImproperlyConfigured(error_msg)
+# def get_secret(setting, secrets=secrets):
+#     try:
+#         return secrets[setting]
+#     except KeyError:
+#         error_msg = "Set the {} environment variable".format(setting)
+#         raise ImproperlyConfigured(error_msg)
 
 # SECRET_KEY = get_secret("SECRET_KEY")
 SECRET_KEY = "django-insecure-57^tohc!v_cbvfwndk#!)=t-9)1)cd40!@1^i69z3%#@28%(=y"
@@ -170,13 +170,13 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 
 #  발신할 이메일 주소 '~@gmail.com'  (숨겨야 하는 값이기에 env로 표현)
-# EMAIL_HOST_USER = get_secret("EMAIL_HOST_USER")
+# EMAIL_HOST_USER = ("EMAIL_HOST_USER")
 EMAIL_HOST_USER="saviorservice2023@gmail.com"
 
 
 # 발신할 이메일 비밀번호 (2단계 인증일경우 앱 비밀번호)
 # EMAIL_HOST_PASSWORD = 'EMAIL_HOST_PASSWORD'
-# EMAIL_HOST_PASSWORD = get_secret("EMAIL_HOST_PASSWORD")
+# EMAIL_HOST_PASSWORD = ("EMAIL_HOST_PASSWORD")
 EMAIL_HOST_PASSWORD="rackvwohuuubvqns"
 
 
